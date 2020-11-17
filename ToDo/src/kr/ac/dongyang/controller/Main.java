@@ -37,7 +37,7 @@ public class Main extends Utils {
 				break;
 			case 5:
 				System.out.println("프로그램을 종료하시겠습니까? (y/n)");
-				String str = s.next();
+				String str = s.next(); 
 				if(str.equals("y")) {
 					System.out.println("프로그램을 종료합니다.");
 					System.exit(0);
